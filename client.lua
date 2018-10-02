@@ -151,7 +151,7 @@ function OpenWeaponMenu()
     ESX.UI.Menu.Open(
         'default', GetCurrentResourceName(), 'fish_menu',
         {
-            title    = 'Fiskeutrustning',
+            title    = 'Vilket vapen vill du ha?',
             elements = {
 				{label = 'M4A4', value = 'sausage_1', weapon = "WEAPON_CARBINERIFLE"},
 				{label = 'MP5', value = 'sausage_1', weapon = "WEAPON_SMG"},
